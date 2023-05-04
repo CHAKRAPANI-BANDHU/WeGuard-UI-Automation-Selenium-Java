@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="WeGuard">
+    <classes>
+      <class name="com.weguard.testcases.WeTrack"/>
+      <class name="com.weguard.testcases.WeShield"/>
+      <class name="com.weguard.testcases.Broadcast"/>
+      <class name="com.weguard.testcases.Reports"/>
+      <class name="com.weguard.testcases.Alerts"/>
+      <class name="com.weguard.testcases.PolicyGroups"/>
+      <class name="com.weguard.testcases.AuditLogs"/>
+      <class name="com.weguard.testcases.DataUsage"/>
+      <class name="com.weguard.testcases.WeTalk"/>
+      <class name="com.weguard.testcases.WeBox"/>
+      <class name="com.weguard.testcases.Login"/>
+      <class name="com.weguard.testcases.BaseClass"/>
+      <class name="com.weguard.testcases.BulkActions"/>
+      <class name="com.weguard.testcases.Dashboard"/>
+      <class name="com.weguard.testcases.RolesandPermissions"/>
+      <class name="com.weguard.testcases.Devices"/>
+    </classes>
+  </test> <!-- WeGuard -->
+</suite> <!-- Suite -->
